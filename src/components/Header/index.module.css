@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(0, 110, 255);
+    border-bottom: 1px solid black;
+}
+
+.logo_cont {
+    padding-left: 4px;
+}
+
+.text_cont {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
