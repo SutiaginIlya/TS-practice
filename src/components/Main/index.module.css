@@ -1,0 +1,17 @@
+.main {
+
+}
+
+.main_text {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.users_cont {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.input {
+    margin-left: 1rem;
+}
