@@ -3,7 +3,7 @@
     align-items: center;
     position: relative;
     background-color: rgb(0, 110, 255);
-    border-bottom: 1px solid black;
+    border-bottom: 4px solid black;
 }
 
 .logo_cont {
@@ -14,7 +14,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 32px;
+    font-size: 64px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
