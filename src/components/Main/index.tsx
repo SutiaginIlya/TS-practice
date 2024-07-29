@@ -18,12 +18,12 @@ type User = {
         lng: string;
     };
 };
-    phone: "string";
-    website: "string";
+    phone: string;
+    website: string;
     company: {
-        name: "string";
-        catchPhrase: "string";
-        bs: "string";
+        name: string;
+        catchPhrase: string;
+        bs: string;
     };
 };
 
@@ -53,9 +53,9 @@ export const Main: React.FC = () => {
             </div>
             {loading && <p>Loading...</p>}
             {!loading && (
-                <ul>
+                <ol>
                     {users.map(user => (<li key={user.id}>{user.name}</li>))}
-                </ul>
+                </ol>
             )}
         </div>
     )
